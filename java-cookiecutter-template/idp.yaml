@@ -1,0 +1,17 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: java_cookiecutter_template_7f06fa
+name: java-cookiecutter-template
+owner: group:account/IDP_Test
+orgIdentifier: default
+projectIdentifier: sd2
+spec:
+  lifecycle: production
+metadata:
+  description: A Cookiecutter template for Java services
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/Sdhar-ORG-Harness/java-cookiecutter-template
+  tags:
+  - auto-onboarded
